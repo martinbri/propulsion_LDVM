@@ -12,7 +12,6 @@ The NSGA-II implementation is provided by the *pymoo* Python library.
 - `LDVM_v2_original.5/`: Contains the original LDVM model implementation by Ramesh et al. (2013).
 - `paper_result/`: Gathers data obtained by Anderson et al. (1998) for several flapping kinematics. LDVM validation can be performed against these data.
 - `LDVM/`: Contains the code developed for the project.
-  - `launcher.sh`: Launch script for SLURM systems.
   - `ldvm_back_up.py`: Python implementation of the LDVM method.
   - `validation_ldvm.py`: Validation against the Theodorsen model and Anderson's data.
   - `naca0015_airfoil.dat / sd7003.dat / sd7012.dat`: Airfoil coordinate files for several profile shapes.

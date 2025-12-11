@@ -1,0 +1,28 @@
+chord: 1.0
+cm_pvt: 0.33
+flow_file_name: flow.csv
+foil_name: ../naca0015_airfoil.dat
+force_file_name: force_pr_amp45_k0.2_le.csv
+lesp_crit: 0.19
+low_bound:
+- 0.1
+- 0
+- 0
+- -3.141592653589793
+max_iter: 1000
+motion_file_name: motion_pr_amp45_k0.2.dat
+n_div: 70
+n_generations: 400
+n_period: 5
+n_pts_flow: 100
+nu: 1.566e-05
+pop_size: 24
+pvt: 0.33
+re_ref: 1000
+rho: 1.225
+u_ref: 1.0
+up_bound:
+- 0.8
+- 1.4
+- 1.0
+- 3.141592653589793
